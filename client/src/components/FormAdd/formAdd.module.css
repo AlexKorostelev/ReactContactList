@@ -1,0 +1,39 @@
+.button {
+  width: 120px;
+}
+
+/* label focus color */
+input:focus + label {
+  color: #424242 !important;
+}
+/* label underline focus color */
+input:focus {
+  border-bottom: 1px solid #424242 !important;
+  box-shadow: 0 1px 0 0 #424242 !important
+}
+.selected {
+  color: #424242 !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gold;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 500px;
+  margin: 0 20px;
+}
+
+.divadd {
+  width: 275px;
+  margin: 10px;
+}

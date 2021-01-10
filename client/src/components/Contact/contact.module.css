@@ -1,0 +1,32 @@
+.cardContainer {
+  width: 500px;
+  min-width: 500px;
+  margin: 10px;
+  background-color: whitesmoke;
+  transition: all ease-in 0.2s;  
+}
+.cardContainer:hover {
+  background-color: white;
+  transform: scale(1.04);
+  transition: all ease-out 0.2s;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardInfoContainer {
+  width: 80%;
+}
+
+.cardButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.button {
+  width: 50px;
+  margin: 5px;
+}

@@ -1,0 +1,34 @@
+.button {
+  width: 120px;
+}
+
+/* label focus color */
+input:focus + label {
+  color: #424242 !important;
+}
+/* label underline focus color */
+input:focus {
+  border-bottom: 1px solid #424242 !important;
+  box-shadow: 0 1px 0 0 #424242 !important
+}
+.selected {
+  color: #424242 !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 400px;
+  min-height: 240px;
+  padding-top: 15px;
+  background-color: gold;
+}

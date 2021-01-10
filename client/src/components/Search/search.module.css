@@ -1,0 +1,7 @@
+.container {
+  margin: 0 20px;
+  width: 293px;
+}
+.selected {
+  color: #424242 !important;
+}

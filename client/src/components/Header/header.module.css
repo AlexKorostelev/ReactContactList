@@ -1,0 +1,30 @@
+.main {
+  background-color: #44464f;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 2em;
+  font-size: 1.3rem;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.navComponents {
+  display: flex;
+  flex-direction: row;
+}
+
+.navComponents div {
+  margin: 0 20px;
+  min-width: 100px;;
+}
+
